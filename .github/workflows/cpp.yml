@@ -70,12 +70,12 @@ jobs:
           - os: macos-15-intel
             task: if-else
             compiler: clang
-            python_version: '3.10'
+            python_version: '3.14'
             container: null
           - os: ubuntu-latest
             task: if-else
             compiler: gcc
-            python_version: '3.11'
+            python_version: '3.14'
             container: 'ghcr.io/lightgbm-org/lightgbm-vsts-agent:manylinux_2_28_x86_64'
             os-display-name: 'manylinux_2_28'
     steps:
