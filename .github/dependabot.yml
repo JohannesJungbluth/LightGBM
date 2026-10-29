@@ -17,6 +17,9 @@ updates:
       - maintenance
   - package-ecosystem: gitsubmodule
     directory: /
+    allow:
+      - dependency-name: external_libs/fmt
+      - dependency-name: external_libs/fast_double_parser
     schedule:
       interval: monthly
     cooldown:
